@@ -1,0 +1,112 @@
+{
+    "data": {
+        "id": 6938,
+        "no_factura": 2421,
+        "autorizacion": "0",
+        "codigo_control": "0",
+        "nit": "1027943022",
+        "total": 4882.5,
+        "proveedor_id": 7,
+        "users_id": 14,
+        "estado1": "habilitado",
+        "fecha": "2025-09-26",
+        "created_at": "2025-09-26 11:22:09",
+        "updated_at": "2025-09-26 11:22:09",
+        "observacion": null,
+        "users": {
+            "id": 14,
+            "name": "ALVARO CABERO ALVAREZ",
+            "abreviado": "AC",
+            "email": "alvaro1@fbb.com",
+            "email_verified_at": "-0001-11-30 00:00:00",
+            "type": "Administrador",
+            "estado": "habilitado",
+            "imagen": "null",
+            "created_at": "2020-03-13 14:58:00",
+            "updated_at": "2025-07-15 13:13:35"
+        },
+        "proveedor": {
+            "id": 7,
+            "nombre": "RAICES",
+            "nombre_generico": "raices import-export ltda.",
+            "created_at": "-0001-11-30 00:00:00",
+            "updated_at": "2022-12-15 19:16:00"
+        }
+    },
+    "data2": [
+        {
+            "id": 17305,
+            "producto_id": 303,
+            "ingreso_id": 6938,
+            "no_lote": "3338102",
+            "fecha_vencimiento": "11/2026",
+            "cantidad": 7500,
+            "subtotal": 4882.5,
+            "precio_c": 0.651,
+            "porc": 1.55,
+            "precio_venta": 1.01,
+            "created_at": "2025-09-26 11:22:09",
+            "updated_at": "2025-09-26 11:22:09",
+            "producto": {
+                "id": 303,
+                "codigo": "E-4-5",
+                "nombre": "AMITRIPTILINA 25 MG COMPRIMIDO",
+                "nombre_g": "AMITRIPTILINA 25 MG COMPRIMIDO",
+                "reg_sanitario": "II-47703/2017",
+                "concentracion": "mg",
+                "desc_concentracion": "25",
+                "presentacion": "caja",
+                "desc_presentacion": "x30",
+                "f_farmaceutica": "comprimido",
+                "nacionalidad": "Colombia",
+                "categoria": "Fraccionados A menor a 500",
+                "proveedor_id": 7,
+                "users_id": 14,
+                "cajon": null,
+                "estado": "activo",
+                "created_at": "-0001-11-30 00:00:00",
+                "updated_at": "2024-03-26 14:36:12"
+            }
+        }
+    ],
+    "data3": [
+        {
+            "id": 18108,
+            "producto_id": 303,
+            "ingreso_id": 6938,
+            "no_lote": "3338102",
+            "fecha_vencimiento": "11/2026",
+            "cantidad": 5550,
+            "subtotal": 4882.5,
+            "precio_c": 0.651,
+            "estado1": "habilitado",
+            "detallecompra_id": 17305,
+            "porc": 1.55,
+            "precio_venta": 1.01,
+            "estado_p": "activo",
+            "created_at": "2025-09-26 11:22:09",
+            "updated_at": "2025-09-26 11:22:09",
+            "observacion": null,
+            "producto": {
+                "id": 303,
+                "codigo": "E-4-5",
+                "nombre": "AMITRIPTILINA 25 MG COMPRIMIDO",
+                "nombre_g": "AMITRIPTILINA 25 MG COMPRIMIDO",
+                "reg_sanitario": "II-47703/2017",
+                "concentracion": "mg",
+                "desc_concentracion": "25",
+                "presentacion": "caja",
+                "desc_presentacion": "x30",
+                "f_farmaceutica": "comprimido",
+                "nacionalidad": "Colombia",
+                "categoria": "Fraccionados A menor a 500",
+                "proveedor_id": 7,
+                "users_id": 14,
+                "cajon": null,
+                "estado": "activo",
+                "created_at": "-0001-11-30 00:00:00",
+                "updated_at": "2024-03-26 14:36:12"
+            }
+        }
+    ]
+}
